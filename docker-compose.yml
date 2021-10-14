@@ -1,12 +1,9 @@
-version: '3'
+version: "3"
+
 services:
-  coffee:
-    build: coffee/.
-  tea:
-    build: tea/.
-  auth:
-    build: auth/.
-  nginx:
-    image: nginx
-    ports:
-      - "443:443"
+    client:
+        image: nginx
+        ports:
+            - 8000:80
+        volumes:
+            - ./src:/usr/share/nginx/html
