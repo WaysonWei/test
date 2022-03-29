@@ -2,7 +2,7 @@ version: "3"
 
 services:
     client:
-        image: nginx
+        image: 2.2.2.2/nginx
         ports:
             - 8080:80
         volumes:
