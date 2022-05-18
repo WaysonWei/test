@@ -1,3 +1,5 @@
 version: "3"
-nginx:
-  image: nginx
+
+services:
+  nginx:
+    image: nginx
