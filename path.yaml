@@ -6,6 +6,6 @@ services:
     image: nginx:alpine
     restart: always
     ports:
-      - "3002:$port"
+      - "${portainer-port}:$port"
     volumes:
       - ./static:/usr/share/nginx/html
