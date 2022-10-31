@@ -6,6 +6,6 @@ services:
     image: nginx:alpine
     restart: always
     ports:
-      - $extport:$port
+      - ${extport}:$port
     volumes:
       - ./static:/usr/share/nginx/html
