@@ -1,11 +1,7 @@
 version: '3.1'
 services:
   webapp:
-    env_file:
-      - stack.env
     image: nginx:alpine
     restart: always
     ports:
-      - ${extport}:$port
-    volumes:
-      - ./static:/usr/share/nginx/html
+      - 30091:$port
