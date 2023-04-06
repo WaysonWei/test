@@ -4,4 +4,4 @@ services:
   db:
     image: nginx:latest
     ports:
-      - "3009:80"
+      - "3008:80"
