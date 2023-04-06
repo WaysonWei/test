@@ -3,3 +3,5 @@ version: "3"
 services:
   db:
     image: nginx:latest
+    ports:
+      - "3009:80"
