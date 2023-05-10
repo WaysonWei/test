@@ -4,4 +4,4 @@ services:
     image: nginx:alpine
     restart: always
     ports:
-      - ${EXTPORT}:$port
+      - {{EXTPORT}}:$port
