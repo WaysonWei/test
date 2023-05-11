@@ -6,4 +6,4 @@ services:
     ports:
       - "3009:80"
     volumes:
-      - ./static/${folder}:/usr/share/nginx/html
+      - ./config/${folder}:/usr/share/nginx/html
