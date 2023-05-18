@@ -6,4 +6,4 @@ services:
     ports:
       - "3009:80"
     volumes:
-      - ./config/${PORTAINER_EDGE_ID}:/usr/share/nginx/html
+      - ./static:/usr/share/nginx/html
