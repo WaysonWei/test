@@ -2,4 +2,4 @@ version: "3"
 
 services:
   three:
-    image: nginx:latest
+    image: nginx:{{tag}}
